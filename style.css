@@ -80,14 +80,6 @@ body {
     color: #2F58CD !important;
 }
 
-#section_tanıtım {
-    height: 100vh;
-    background-image: url("./images/image.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 .baslik_row {
     font-family: 'Merriweather', serif;
@@ -95,6 +87,10 @@ body {
 
 #section_hizmetler {
     background-color: #F7A440;
+}
+
+#section_tanıtım .carousel .carousel-inner .carousel-item{
+    height: 100vh ;
 }
 
 #hizmetler {
