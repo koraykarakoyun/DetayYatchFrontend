@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
     <title>Document</title>
 </head>
@@ -25,7 +24,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </button>
 
-                <a id="brand" class="navbar-brand navbar_onhover" href="#">Detay Yatch</a>
+                <a id="brand" class="navbar-brand navbar_onhover" href="#">Yacht</a>
 
                 <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -89,7 +88,7 @@
 
 
 
-        <section id="section_hizmetler">
+        <!-- <section id="section_hizmetler">
             <div id="hizmetler" class="d-flex align-items-center justify-content-center">
                 <p class="baslik_row" id="hizmetler_row">Hizmetlerimiz</p>
             </div>
@@ -182,9 +181,49 @@
                 </div>
 
             </div>
+        </section> -->
+
+
+        <section id="section_hizmetler">
+            <div id="hizmetler" class="d-flex align-items-center justify-content-center">
+                <p class="baslik_row" id="hizmetler_row">Hizmetlerimiz</p>
+            </div>
+            <div id="section_services_first_row" class="row w-100 m-0 d-flex">
+                <div
+                    class="col-lg-6 px-5 text-center d-flex flex-column justify-content-center align-items-center fs-3 services_div">
+                    <h1 class="mb-4">Lorem, ipsum.</h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam iusto debitis repellat ipsam
+                        placeat nemo aut rerum qui! Fugit itaque quis dolores tenetur voluptate? </p>
+
+                </div>
+                <img class="col-lg-6 p-0" src="images/a.jpg" alt="">
+
+            </div>
+
+            <div id="section_services_second_row" class="row w-100 m-0  d-flex">
+                <img class="col-lg-6 p-0" src="images/a.jpg" alt="">
+                <div
+                    class="col-lg-6 px-5 text-center d-flex flex-column justify-content-center align-items-center fs-3 services_div">
+                    <h1 class="mb-4">Lorem, ipsum.</h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam iusto debitis repellat ipsam
+                        placeat nemo aut rerum qui! Fugit itaque quis dolores tenetur voluptate? </p>
+
+                </div>
+            </div>
+
+            <div id="section_services_third_row" class="row w-100 m-0  d-flex">
+                <div
+                    class="col-lg-6 px-5 text-center d-flex flex-column justify-content-center align-items-center fs-3 services_div">
+                    <h1 class="mb-4">Lorem, ipsum.</h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam iusto debitis repellat ipsam
+                        placeat nemo aut rerum qui! Fugit itaque quis dolores tenetur voluptate?</p>
+                </div>
+                <img class="col-lg-6 p-0" src="images/a.jpg" alt="">
+
+            </div>
         </section>
 
-
+        <!-- Resim galerisi farklı resimler slidermı olacak yoksa tek resim mi büyütülecek?-->
         <section id="section_urunler" class="w-100">
 
 
@@ -195,103 +234,109 @@
             <div class="container">
                 <div class="row py-2">
                     <div class="col-6 col-lg-4 col-sm-6 py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+
+                        <a href="https://picsum.photos/550/200" data-toggle="lightbox" data-gallery="urunler_galeri">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/550/200" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+
                     </div>
+
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class=" ">
-                            <div class="card text-bg-dark">
+                        <a href="https://picsum.photos/600/200" data-toggle="lightbox" data-gallery="urunler_galeri">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/300/500" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
+
+
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox" data-gallery="urunler_galeri">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/800/200" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
+
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox" data-gallery="urunler_galeri">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/400/150" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox" data-gallery="urunler_galeri">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/100/400" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/700/550" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-lg-4 col-sm-6 py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/304/750" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-lg-4 col-sm-6  py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/200/550" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-12 col-lg-4 col-sm-12 py-2">
-                        <div class="">
-                            <div class="card text-bg-dark">
+                        <a href="images/a.jpg" data-toggle="lightbox">
+                            <div class="card text-bg-dark border-0 rounded-0">
                                 <img src="https://picsum.photos/200/550" class="card-img" alt="...">
                                 <div
                                     class="card-img-overlay d-flex justify-content-center align-items-end text-center pb-3">
                                     <p class="card-text">Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -301,6 +346,7 @@
 
         <section id="section_iletisim" class="w-100">
             <div id="iletisim-row" class="text-center py-4 border-bottom baslik_row">İletişim</div>
+
             <div class="container-fluid">
 
                 <div class="row"><iframe
@@ -309,32 +355,38 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-
-                <p id="email_contact" class="mb-3 mt-5 iletisim">Bizimle
-                    İletişime Geçin!</p>
-
-                <div class="row align-items-center">
-
-                    <div class="col-lg-6">
-
-                        <a id="email" class="iletisim" href="mailto:a@hotmail.com">a@hotmail.com</a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a id="telefon" class="iletisim" href="tel:05055555555">0505 555 55 55</a>
-                    </div>
-
-                </div>
             </div>
-
-
         </section>
-
 
 
     </main>
 
     <footer class="footer">
-        <div class="row d-flex justify-content-center align-items-center text-center text-light p-5 border-top">
+        <div id="container_iletisim" class="container pb-5">
+            <div class="row m-0 w-100 pt-5 text-center d-flex justify-content-evenly align-items-center">
+                <div id="container_iletisim_icons"
+                    class="col-4 d-flex flex-column justify-content-center align-items-center text-center">
+                    <i class="icons fa-sharp fa-solid fa-phone"></i>
+                    <h1 class="iletisim pt-3">TELEFON</h1>
+                    <a class="iletisim" href="tel:05055555555">0505 555 55 55</a>
+                </div>
+                <div id="container_iletisim_icons"
+                    class="col-4 d-flex flex-column  justify-content-center align-items-center text-center">
+                    <i class="icons fa-solid fa-location-dot"></i>
+                    <h1 class="iletisim pt-3">ADRES</h1>
+                    <span class="iletisim"> Pendik/Istanbul</span>
+
+                </div>
+                <div id="container_iletisim_icons"
+                    class="col-4 d-flex flex-column justify-content-center align-items-center text-center">
+                    <i class="icons fa-solid fa-envelope"></i>
+                    <h1 class="iletisim pt-3">MAİL</h1>
+                    <a class="iletisim" href="mailto:a@hotmail.com">a@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center text-center text-light p-5 border-top">
             © 2023 Copyright: a.com.tr
         </div>
     </footer>
@@ -348,6 +400,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
